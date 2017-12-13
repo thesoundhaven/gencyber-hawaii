@@ -1,0 +1,139 @@
+{
+    "1": {
+        "question": {
+            "1": "<br\/>Which GenCyber First Principle did Google apply which helped it surpass Yahoo?",
+            "2": "<br\/><a href=\"\/gencyber\/images\/challenge1.bmp\"><img src=\"\/gencyber\/images\/challenge1.bmp\" style=\"width: 100%; height: auto\" alt=\"Challenge 1\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "conceptuallysimple",
+                "simplicityofdesign"
+            ],
+            "2": [
+                "fern"
+            ]
+        }
+    },
+    "2": {
+        "question": {
+            "1": "<br\/>This is an example of which GenCyber First Principle?",
+            "2": "<br\/><i>You might need to look back at this picture later on...<\/i><br\/><br\/><a href=\"\/gencyber\/images\/challenge2.bmp\"><img src=\"\/gencyber\/images\/challenge2.bmp\" style=\"width: 90%; height: auto\" alt=\"Challenge 2\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "leastprivilege"
+            ],
+            "2": [
+                "asuh-hcc"
+            ]
+        }
+    },
+    "3": {
+        "question": {
+            "1": "<br\/>Which GenCyber First Principle does this type of building fail to implement?",
+            "2": "<br\/><a href=\"\/gencyber\/images\/challenge3.bmp\"><img src=\"\/gencyber\/images\/challenge3.bmp\" style=\"width: 78%; height: auto\" alt=\"Challenge 3\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "processisolation"
+            ],
+            "2": [
+                "3630"
+            ]
+        }
+    },
+    "4": {
+        "question": {
+            "1": "<br\/>The sculpture represents this Cybersecurity First Principle.",
+            "2": "<br\/>76deb2ac06bfc1320b5aadb52d856fca\n<br\/>RmxhZzogVGhlIGRhdGUgb24gdGhlIHBsYXF1ZSBvZiB0aGUgc2N1bHB0dXJl"
+        },
+        "answer": {
+            "1": [
+                "abstraction"
+            ],
+            "2": [
+                "1991"
+            ]
+        }
+    },
+    "5": {
+        "question": {
+            "1": "<br\/>This is similar to a Cybersecurity First Principle which implements multiple tiers of security that an intruder would need to crack through.",
+            "2": "<br\/><a href=\"\/gencyber\/images\/challenge5.bmp\"><img src=\"\/gencyber\/images\/challenge5.bmp\" style=\"width: 75%; height: auto\" alt=\"Challenge 5\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "layering"
+            ],
+            "2": [
+                "21"
+            ]
+        }
+    },
+    "6": {
+        "question": {
+            "1": "<br\/>Which Gencyber First Principle does this relate to?",
+            "2": "<br\/><a href=\"\/gencyber\/images\/challenge6.bmp\"><img src=\"\/gencyber\/images\/challenge6.bmp\" style=\"width: 80%; height: auto\" alt=\"Challenge 6\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "resourceencapsulation"
+            ],
+            "2": [
+                "greenhouse"
+            ]
+        }
+    },
+    "7": {
+        "question": {
+            "1": "<br\/>Enter the Gencyber principle below",
+            "2": "<br\/>RW50ZXIgdGhlIGJ1aWxkaW5nIG51bWJlciB3aGljaCB1c2VzIHRoaXMgc3lzdGVt",
+            "3": "<br\/>YSAU: AL MIT RTCTB RTEODAS LBLMTD OL ZTOFU AFMOJWAMTR, LG AKT MITLT LBLMTDL YGWFR GWMLORT MIT ZWOSROFU"
+        },
+        "answer": {
+            "1": [
+                "domainseparation"
+            ],
+            "2": [
+                "seven",
+                "7"
+            ],
+            "3": [
+                "payphones"
+            ]
+        }
+    },
+    "8": {
+        "question": {
+            "1": "<br\/>This is an example of which GenCyber First Principle?",
+            "2": "<br\/>Salty Clue: fb04865bf7a2b15d7f79715059f954cf\n<br\/>Locate a metal sign on the building referenced in the above cipher text whose title relates to broiling or barbecuing. There is an old map in the sign. Enter the name of the major street shown in the map.",
+            "3": "<br\/>TG9jYXRlIGEgV2F0ZXIgTGlsbHkgY29udGFpbmVyIHdpdGggc21hbGwgZmlzaC4gIEZsYWcgaXMgdGhlIGJpcmQgbmV4dCB0byB0aGUgY29udGFpbmVyLg=="
+        },
+        "answer": {
+            "1": [
+                "datahiding",
+                "informationhiding"
+            ],
+            "2": [
+                "queen"
+            ],
+            "3": [
+                "crane"
+            ]
+        }
+    },
+    "9": {
+        "question": {
+            "1": "<br\/>Which GenCyber First Prinicple does the above represent?",
+            "2": "<br\/><a href=\"\/gencyber\/images\/challenge9.bmp\"><img src=\"\/gencyber\/images\/challenge9.bmp\" style=\"width: 82%%; height: auto\" alt=\"Challenge 9\"><\/a><br\/>"
+        },
+        "answer": {
+            "1": [
+                "modularity"
+            ],
+            "2": [
+                "kessinger"
+            ]
+        }
+    }
+}
