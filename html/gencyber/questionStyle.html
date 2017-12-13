@@ -1,0 +1,154 @@
+<!-- Modify page style for each challenge (including other pages such as the about and progress page) -->
+<style>
+    /* BODY BACKGROUND */
+    body {
+        background-color: lightgreen;
+        background-image: url("/gencyber/images/bannerHidden.jpg");
+    }
+
+    #wrap {
+        position: absolute;
+        width: 1280px;
+        height: 1024px;
+    }
+    .wrap {
+        white-space: pre-wrap;      /* CSS3 */   
+        white-space: -moz-pre-wrap; /* Firefox */    
+        white-space: -pre-wrap;     /* Opera <7 */   
+        white-space: -o-pre-wrap;   /* Opera 7 */    
+        word-wrap: break-word;      /* IE */
+    }
+
+    div.ansbox {
+	      position: absolute;
+        margin: 30px;
+        opacity: 1;
+        filter: alpha(opacity=60);
+	      width: 75%;
+        top: 5%;
+	      left: 10%;
+    }
+
+    .myProgress {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        background-color: grey;
+    }
+
+    .myBar {
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        background-color: green;
+    }
+
+    .label {
+        text-align: center; /* If you want to center it */
+        line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+        color: white;
+	      font-size: 10px;
+    }
+
+    div.ansbox h1 {
+        font-family: helvetica;
+        color: #136a1c !important;
+        font-size: 14px;
+        text-shadow: 1px 1px 0px #7cde7d;
+        box-shadow: 1px 1px 1px #bef9bd;
+        padding: 10px 25px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 2px solid #37a242;
+        background: #33d664;
+        background: linear-gradient(top, #32ef6b, #36bf31);
+        background: -ms-linear-gradient(top, #33d664, #36bf31);
+        background: -webkit-gradient(linear, left top, left bottom, from(#33d664), to(#36bf31));
+        background: -moz-linear-gradient(top, #33d664, #36bf31);
+    }
+
+    div.ansbox p {
+        font-family: Trebuchet MS;
+        color: #000000 !important;
+        font-size: 13px;
+        box-shadow: 1px 1px 1px #F9F9F9;
+        padding: 10px 25px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 2px solid #37a242;
+        background: #EEEEEE;
+        background: linear-gradient(top, #FFFFFF, #FFFFFF);
+        background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FFFFFF));
+        background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+        box-shadow: 2px 2px 5px #000000;
+    }
+
+    div.ansbox input[type=text] {
+        font-family: helvetica;
+        color: #000000 !important;
+        font-size: 13px;
+        text-shadow: 1px 1px 0px #E3E3E3;
+        box-shadow: 1px 1px 1px #F9F9F9;
+        padding: 10px 25px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 2px solid #37a242;
+        background: #EEEEEE;
+        background: linear-gradient(top, #FFFFFF, #FFFFFF);
+        background: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FFFFFF));
+        background: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    }
+
+    div.ansbox input[type=submit] {
+        width: 25%;
+        font-family: arial;
+        color: #136a1c !important;
+        font-size: 14px;
+        text-shadow: 1px 1px 0px #7cde7d;
+        box-shadow: 1px 1px 1px #bef9bd;
+        padding: 10px 25px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        border: 2px solid #37a242;
+        background: #33d664;
+        background: linear-gradient(top, #33d664, #36bf31);
+        background: -ms-linear-gradient(top, #33d664, #36bf31);
+        background: -webkit-gradient(linear, left top, left bottom, from(#33d664), to(#36bf31));
+        background: -moz-linear-gradient(top, #33d664, #36bf31);
+    }
+
+    div.ansbox input[type=submit]:hover {
+        color: #136a1c !important;
+        background: #36bf31;
+        background: linear-gradient(top, #36bf31, #33d664);
+        background: -ms-linear-gradient(top, #36bf31, #33d664);
+        background: -webkit-gradient(linear, left top, left bottom, from(#36bf31), to(#33d664));
+        background: -moz-linear-gradient(top, #36bf31, #33d664);
+    }
+</style>
+
+<script>
+    function myFunction() {
+        document.getElementById("answer").submit();
+    }
+    function move(bar, label, length) {
+        var elem = document.getElementById(bar);
+        var width = 1;
+        var id = setInterval(frame, 20);
+        function frame() {
+            if (width >= length * 100) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                document.getElementById(label).innerHTML = width * 1 + '%';
+            }
+        }
+    }
+</script>
